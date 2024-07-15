@@ -95,3 +95,5 @@ elif option == 'Tentang':
 if not st.session_state.history_df.empty:
     st.header('History Klasifikasi')
     st.write(st.session_state.history_df)
+
+# Dalam Gambar 3. 22 ini, jika pengguna memilih opsi 'Klasifikasi', aplikasi akan menampilkan sebuah header yang menyatakan bahwa ini adalah bagian untuk mengklasifikasikan status stunting. Pengguna diminta untuk memasukkan data seperti usia dalam bulan, jenis kelamin, dan tinggi badan anak. Setelah pengguna memasukkan data dan mengklik tombol 'Klasifikasi', aplikasi akan menggunakan fungsi prediksi_status_pendek untuk melakukan prediksi berdasarkan data yang dimasukkan. Hasil prediksi akan ditampilkan dengan warna yang berbeda-beda sesuai dengan status stunting yang diprediksi. Selain itu, data input dan hasil prediksi juga akan ditambahkan ke dalam riwayat penggunaan aplikasi (history_df).
